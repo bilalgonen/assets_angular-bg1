@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row" *ngFor="let asset of assets">
+    <h4>
+      <a [routerLink]="['/assets', asset.id]">
+        {{ asset.name }}
+      </a>
+    </h4>
+  </div>
+</div>
