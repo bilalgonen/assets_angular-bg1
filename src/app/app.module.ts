@@ -9,6 +9,7 @@ import { NotFoundComponent } from './not-found/not-found.component'
 import { ContactModule } from './contact/contact.module'
 import { ProductsModule } from './products/products.module'
 import { DataassetsModule } from './dataassets/dataassets.module'
+import { WishModule } from './wish/wish.module'
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { DataassetsModule } from './dataassets/dataassets.module'
     ContactModule,
     ProductsModule,
     DataassetsModule,
+    WishModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

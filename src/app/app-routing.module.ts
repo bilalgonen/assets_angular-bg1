@@ -8,6 +8,7 @@ import { ProductslistComponent } from './products/productslist/productslist.comp
 import { ProductdetailsComponent } from './products/productdetails/productdetails.component'
 import { DataassetlistComponent } from './dataassets/dataassetlist/dataassetlist.component'
 import { DataassetdetailsComponent } from './dataassets/dataassetdetails/dataassetdetails.component'
+import { WishComponent } from './wish/wish.component'
 
 const routes: Routes = [
   { path: '', component: DataassetlistComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'products', component: ProductslistComponent },
   { path: 'products/:id', component: ProductdetailsComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'wishlist', component: WishComponent },
   { path: '**', component: NotFoundComponent },
 ]
 
