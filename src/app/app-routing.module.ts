@@ -10,13 +10,12 @@ import { DataassetlistComponent } from './dataassets/dataassetlist/dataassetlist
 import { DataassetdetailsComponent } from './dataassets/dataassetdetails/dataassetdetails.component'
 
 const routes: Routes = [
-  { path: '', component: FirstComponent },
-  { path: 'second', component: SecondComponent },
-  { path: 'contact', component: ContactComponent },
+  { path: '', component: DataassetlistComponent },
   { path: 'assets', component: DataassetlistComponent },
   { path: 'assets/:id', component: DataassetdetailsComponent },
   { path: 'products', component: ProductslistComponent },
   { path: 'products/:id', component: ProductdetailsComponent },
+  { path: 'contact', component: ContactComponent },
   { path: '**', component: NotFoundComponent },
 ]
 
